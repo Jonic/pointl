@@ -1,5 +1,6 @@
  Pointl  
- by [Chris Novello](http://chrisnovello.com)     
+ by [Chris Novello](http://chrisnovello.com) ([@paperkettle](http://www.twitter.com/paperkettle))   
+
  
  Pointl is a super simple template sketch for rendering images as fluttering typographic pointillism.  
  
