@@ -36,8 +36,8 @@ import netP5.*;
 OscP5 oscP5;
 NetAddress myRemoteLocation;
 
-final int PORT_FOR_INCOMING_OSC_MESSAGES = 8700;
-final int PORT_FOR_OUTGOING_OSC_MESSAGES = 8701;
+final int PORT_FOR_INCOMING_OSC_MESSAGES = 8796;
+final int PORT_FOR_OUTGOING_OSC_MESSAGES = 8797;
 
 //Images:
 ArrayList<PImage> images; //load all images from the data folder into this
@@ -210,7 +210,7 @@ void oscEvent(OscMessage oscMessage) {
     }
 
     //An experiment with new complex codebending type - a tuple carrying: x, y, and a color
-    //allows patching of color at a specific location
+    //allows sampling of color at a specific location via patching
     if (msgSplit[2].equals("GetColorAtCoordinate")) {
 
       float x = oscMessage.get(0).floatValue();
